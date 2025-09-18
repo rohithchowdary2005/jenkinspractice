@@ -1,0 +1,195 @@
+2025-09-17 15:00:43,787 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is not available. Remote download required.
+2025-09-17 15:01:35,802 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:DOCTOER_BACKEND:0.0.1-SNAPSHOT @ D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\DOCTOER_BACKEND\pom.xml.
+2025-09-17 15:01:39,830 [Worker-18: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DOCTOER_BACKEND/src/main/java
+2025-09-17 15:01:39,838 [Worker-18: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DOCTOER_BACKEND/src/main/resources
+2025-09-17 15:01:39,839 [Worker-18: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DOCTOER_BACKEND/src/main/resources
+2025-09-17 15:01:39,840 [Worker-18: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DOCTOER_BACKEND/src/test/java
+2025-09-17 15:01:39,841 [Worker-18: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DOCTOER_BACKEND/src/test/resources
+2025-09-17 15:01:43,506 [Worker-18: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 9 sec
+2025-09-17 15:01:44,921 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-17 15:01:44,972 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-17 15:01:44,983 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\DOCTOER_BACKEND\src\test\resources
+2025-09-17 15:30:06,522 [Worker-30: Launching DOCTOER_BACKEND - DoctoerBackendApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-17 15:30:06,554 [Worker-30: Launching DOCTOER_BACKEND - DoctoerBackendApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-17 15:30:06,561 [Worker-30: Launching DOCTOER_BACKEND - DoctoerBackendApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\DOCTOER_BACKEND\src\test\resources
+2025-09-17 15:30:32,182 [Worker-38: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-09-17 15:30:33,064 [Worker-38: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:DOCTOER_BACKEND:0.0.1-SNAPSHOT @ D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\DOCTOER_BACKEND\pom.xml.
+2025-09-17 15:30:33,896 [Worker-38: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DOCTOER_BACKEND/src/main/java
+2025-09-17 15:30:33,897 [Worker-38: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DOCTOER_BACKEND/src/main/resources
+2025-09-17 15:30:33,898 [Worker-38: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DOCTOER_BACKEND/src/main/resources
+2025-09-17 15:30:33,898 [Worker-38: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DOCTOER_BACKEND/src/test/java
+2025-09-17 15:30:33,900 [Worker-38: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DOCTOER_BACKEND/src/test/resources
+2025-09-17 15:30:34,820 [Worker-38: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for DOCTOER_BACKEND
+2025-09-17 15:30:34,859 [Worker-38: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 0.00 sec 
+2025-09-17 15:30:35,480 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-17 15:30:35,510 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-17 15:30:35,521 [Worker-38: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\DOCTOER_BACKEND\src\test\resources
+2025-09-17 15:30:35,521 [Worker-38: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of DOCTOER_BACKEND
+2025-09-17 15:30:35,522 [Worker-38: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for DOCTOER_BACKEND
+2025-09-17 15:31:10,212 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-17 15:31:10,218 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-17 15:31:10,222 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\DOCTOER_BACKEND\src\test\resources
+2025-09-17 15:31:21,370 [Worker-34: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-09-17 15:31:21,770 [Worker-34: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:DOCTOER_BACKEND:0.0.1-SNAPSHOT @ D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\DOCTOER_BACKEND\pom.xml.
+2025-09-17 15:31:22,332 [Worker-34: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DOCTOER_BACKEND/src/main/java
+2025-09-17 15:31:22,332 [Worker-34: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DOCTOER_BACKEND/src/main/resources
+2025-09-17 15:31:22,333 [Worker-34: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DOCTOER_BACKEND/src/main/resources
+2025-09-17 15:31:22,333 [Worker-34: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DOCTOER_BACKEND/src/test/java
+2025-09-17 15:31:22,335 [Worker-34: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DOCTOER_BACKEND/src/test/resources
+2025-09-17 15:31:22,878 [Worker-34: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for DOCTOER_BACKEND
+2025-09-17 15:31:22,908 [Worker-34: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 0.00 sec, update config takes 0.00 sec 
+2025-09-17 15:31:23,455 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-17 15:31:23,475 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-17 15:31:23,482 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\DOCTOER_BACKEND\src\test\resources
+2025-09-17 15:31:23,483 [Worker-41: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of DOCTOER_BACKEND
+2025-09-17 15:31:23,484 [Worker-41: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for DOCTOER_BACKEND
+2025-09-17 15:43:26,859 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-17 15:43:26,869 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-17 15:43:26,879 [Worker-37: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\DOCTOER_BACKEND\src\test\resources
+2025-09-17 15:47:38,658 [Worker-34: Launching DOCTOER_BACKEND - DoctoerBackendApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-17 15:47:38,664 [Worker-34: Launching DOCTOER_BACKEND - DoctoerBackendApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-17 15:47:38,668 [Worker-34: Launching DOCTOER_BACKEND - DoctoerBackendApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\DOCTOER_BACKEND\src\test\resources
+2025-09-17 15:47:43,367 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-17 15:47:43,377 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-17 15:47:43,381 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\DOCTOER_BACKEND\src\test\resources
+2025-09-17 17:57:42,816 [Worker-51: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.example:DOCTOER_BACKEND:0.0.1-SNAPSHOT @ D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\DOCTOER_BACKEND\pom.xml.
+2025-09-17 17:57:43,874 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-17 17:57:43,876 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-17 17:57:43,884 [Worker-51: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\DOCTOER_BACKEND\src\test\resources
+2025-09-17 17:57:43,885 [Worker-51: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of DOCTOER_BACKEND
+2025-09-17 17:57:43,885 [Worker-51: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for DOCTOER_BACKEND
+2025-09-17 21:46:38,395 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-09-17 21:46:49,366 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-17 21:46:49,428 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-17 21:46:49,440 [Worker-13: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\DOCTOER_BACKEND\src\test\resources
+2025-09-18 07:13:33,127 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-09-18 07:20:38,752 [Worker-29: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.klef:HOTEL-BACKEND:0.0.1-SNAPSHOT @ D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\HOTEL-BACKEND\pom.xml.
+2025-09-18 07:20:40,142 [Worker-29: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HOTEL-BACKEND/src/main/java
+2025-09-18 07:20:40,145 [Worker-29: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HOTEL-BACKEND/src/main/resources
+2025-09-18 07:20:40,155 [Worker-29: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HOTEL-BACKEND/src/main/resources
+2025-09-18 07:20:40,166 [Worker-29: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HOTEL-BACKEND/src/test/java
+2025-09-18 07:20:40,167 [Worker-29: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HOTEL-BACKEND/src/test/resources
+2025-09-18 07:20:42,946 [Worker-29: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 6 sec
+2025-09-18 07:20:42,949 [Worker-29: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-09-18 07:20:43,594 [Worker-29: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.klef:HOTEL-BACKEND:0.0.1-SNAPSHOT @ D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\HOTEL-BACKEND\pom.xml.
+2025-09-18 07:20:44,897 [Worker-29: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HOTEL-BACKEND/src/main/java
+2025-09-18 07:20:44,898 [Worker-29: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HOTEL-BACKEND/src/main/resources
+2025-09-18 07:20:44,898 [Worker-29: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HOTEL-BACKEND/src/main/resources
+2025-09-18 07:20:44,899 [Worker-29: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /HOTEL-BACKEND/src/test/java
+2025-09-18 07:20:44,899 [Worker-29: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /HOTEL-BACKEND/src/test/resources
+2025-09-18 07:20:46,471 [Worker-29: Import Getting Started Content] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for HOTEL-BACKEND
+2025-09-18 07:20:46,497 [Worker-29: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 1.00 sec, update config takes 1.00 sec 
+2025-09-18 07:20:47,525 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-18 07:20:47,572 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-18 07:20:47,590 [Worker-29: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\HOTEL-BACKEND\src\test\resources
+2025-09-18 07:20:47,593 [Worker-29: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of HOTEL-BACKEND
+2025-09-18 07:20:47,604 [Worker-29: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for HOTEL-BACKEND
+2025-09-18 07:34:54,704 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-18 07:34:54,713 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-18 07:34:54,718 [Worker-32: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\HOTEL-BACKEND\src\test\resources
+2025-09-18 07:41:11,354 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-18 07:41:11,417 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-18 07:41:11,426 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\HOTEL-BACKEND\src\test\resources
+2025-09-18 07:41:52,093 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-18 07:41:52,103 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-18 07:41:52,107 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\HOTEL-BACKEND\src\test\resources
+2025-09-18 07:42:04,787 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-18 07:42:04,797 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-18 07:42:04,800 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\HOTEL-BACKEND\src\test\resources
+2025-09-18 07:42:07,991 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-18 07:42:08,007 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-18 07:42:08,009 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\HOTEL-BACKEND\src\test\resources
+2025-09-18 07:42:23,663 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-18 07:42:23,669 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-18 07:42:23,672 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\HOTEL-BACKEND\src\test\resources
+2025-09-18 07:42:39,122 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-18 07:42:39,128 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-18 07:42:39,131 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\HOTEL-BACKEND\src\test\resources
+2025-09-18 07:42:45,913 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-18 07:42:45,918 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-18 07:42:45,920 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\HOTEL-BACKEND\src\test\resources
+2025-09-18 07:43:02,574 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-18 07:43:02,598 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-18 07:43:02,602 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\HOTEL-BACKEND\src\test\resources
+2025-09-18 07:43:18,138 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-18 07:43:18,163 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-18 07:43:18,170 [Worker-44: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\HOTEL-BACKEND\src\test\resources
+2025-09-18 07:43:19,472 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-18 07:43:19,479 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-18 07:43:19,484 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\HOTEL-BACKEND\src\test\resources
+2025-09-18 07:43:24,686 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-18 07:43:24,691 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-18 07:43:24,697 [Worker-43: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\HOTEL-BACKEND\src\test\resources
+2025-09-18 07:43:34,452 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-18 07:43:34,458 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-18 07:43:34,461 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\HOTEL-BACKEND\src\test\resources
+2025-09-18 07:43:56,557 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-18 07:43:56,566 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-18 07:43:56,570 [Worker-45: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\HOTEL-BACKEND\src\test\resources
+2025-09-18 07:44:59,274 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-18 07:44:59,281 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-18 07:44:59,286 [Worker-41: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\HOTEL-BACKEND\src\test\resources
+2025-09-18 07:45:01,398 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-18 07:45:01,405 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-18 07:45:01,423 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\HOTEL-BACKEND\src\test\resources
+2025-09-18 07:45:08,257 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-18 07:45:08,270 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-18 07:45:08,274 [Worker-47: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\HOTEL-BACKEND\src\test\resources
+2025-09-18 08:04:17,392 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-18 08:04:17,419 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-18 08:04:17,421 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\HOTEL-BACKEND\src\test\resources
+2025-09-18 08:04:27,957 [Worker-55: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.klef:HOTEL-BACKEND:0.0.1-SNAPSHOT @ D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\HOTEL-BACKEND\pom.xml.
+2025-09-18 08:04:28,535 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-18 08:04:28,574 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-18 08:04:28,580 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\HOTEL-BACKEND\src\test\resources
+2025-09-18 08:05:01,906 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-18 08:05:01,914 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-18 08:05:01,916 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\HOTEL-BACKEND\src\test\resources
+2025-09-18 08:05:10,905 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-18 08:05:10,911 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-18 08:05:10,914 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\HOTEL-BACKEND\src\test\resources
+2025-09-18 08:05:14,484 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-18 08:05:14,489 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-18 08:05:14,492 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\HOTEL-BACKEND\src\test\resources
+2025-09-18 08:05:23,390 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-18 08:05:23,416 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-18 08:05:23,423 [Worker-55: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\HOTEL-BACKEND\src\test\resources
+2025-09-18 08:05:39,112 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-18 08:05:39,127 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-18 08:05:39,129 [Worker-56: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\HOTEL-BACKEND\src\test\resources
+2025-09-18 08:05:40,216 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-18 08:05:40,223 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-18 08:05:40,226 [Worker-54: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\HOTEL-BACKEND\src\test\resources
+2025-09-18 08:05:51,327 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-18 08:05:51,350 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-18 08:05:51,353 [Worker-58: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\HOTEL-BACKEND\src\test\resources
+2025-09-18 08:05:58,663 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-18 08:05:58,695 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-18 08:05:58,697 [Worker-52: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\HOTEL-BACKEND\src\test\resources
+2025-09-18 08:06:07,810 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-09-18 08:06:07,944 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-18 08:06:07,947 [Worker-57: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\HOTEL-BACKEND\src\test\resources
+2025-09-18 08:10:29,011 [Worker-61: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.klef:HOTEL-BACKEND:0.0.1-SNAPSHOT @ D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\HOTEL-BACKEND\pom.xml.
+2025-09-18 08:10:29,744 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-18 08:10:29,745 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-18 08:10:29,752 [Worker-61: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\HOTEL-BACKEND\src\test\resources
+2025-09-18 08:10:29,753 [Worker-61: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of HOTEL-BACKEND
+2025-09-18 08:10:29,753 [Worker-61: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for HOTEL-BACKEND
+2025-09-18 08:11:00,558 [Worker-62: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.klef:HOTEL-BACKEND:0.0.1-SNAPSHOT @ D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\HOTEL-BACKEND\pom.xml.
+2025-09-18 08:11:01,667 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-18 08:11:01,669 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-18 08:11:01,675 [Worker-62: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\HOTEL-BACKEND\src\test\resources
+2025-09-18 08:11:01,676 [Worker-62: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of HOTEL-BACKEND
+2025-09-18 08:11:01,676 [Worker-62: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for HOTEL-BACKEND
+2025-09-18 08:11:05,405 [Worker-63: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.klef:HOTEL-BACKEND:0.0.1-SNAPSHOT @ D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\HOTEL-BACKEND\pom.xml.
+2025-09-18 08:11:06,287 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-18 08:11:06,288 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-18 08:11:06,293 [Worker-63: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\HOTEL-BACKEND\src\test\resources
+2025-09-18 08:11:06,294 [Worker-63: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of HOTEL-BACKEND
+2025-09-18 08:11:06,294 [Worker-63: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for HOTEL-BACKEND
+2025-09-18 08:11:08,856 [Worker-60: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.klef:HOTEL-BACKEND:0.0.1-SNAPSHOT @ D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\HOTEL-BACKEND\pom.xml.
+2025-09-18 08:11:09,757 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-18 08:11:09,758 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-09-18 08:11:09,765 [Worker-60: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory D:\2025-2026 ODD SEMESTER\JENKINS_PRACTICE\JENKIN-FULLSTACKPRACTICE\HOTEL-BACKEND\src\test\resources
+2025-09-18 08:11:09,765 [Worker-60: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of HOTEL-BACKEND
+2025-09-18 08:11:09,765 [Worker-60: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for HOTEL-BACKEND

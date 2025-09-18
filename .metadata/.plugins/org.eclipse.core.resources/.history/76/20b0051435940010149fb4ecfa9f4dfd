@@ -1,0 +1,44 @@
+package com.klef.service;
+
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.klef.model.Hotel;
+import com.klef.repository.HotelRepository;
+import com.sun.tools.javac.util.List;
+
+@Service
+public class HotelServiceImpl implements HotelService {
+
+    @Autowired
+    private HotelRepository hotelRepository;
+
+    @Override
+    public Hotel addHotel(Hotel hotel) {
+        return hotelRepository.save(hotel);
+    }
+
+    @Override
+    public List<Hotel> getAllHotels() {
+        return hotelRepository.findAll();
+    }
+
+    @Override
+    public Hotel getHotelById(int id) {
+        Optional<Hotel> opt = hotelRepository.findById(id);
+        return opt.orElse(null);
+    }
+
+    @Override
+    public Hotel updateHotel(Hotel hotel) {
+        return hotelRepository.save(hotel);
+    }
+
+    @Override
+    public void deleteHotelById(int id) {
+        hotelRepository.deleteById(id);
+    }
+}
+

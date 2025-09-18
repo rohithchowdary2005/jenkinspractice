@@ -1,0 +1,76 @@
+package com.klef.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.klef.model.Hotel;
+import com.klef.service.HotelService;
+import java.util.List;
+
+@RestController
+@RequestMapping("/hotelapi/")
+@CrossOrigin(origins = "*")
+public class HotelController {
+
+    @Autowired
+    private HotelService hotelService;
+    
+    @GetMapping("/")
+    public String home() {
+        return "Hotel API is Running!";
+    }
+
+    @PostMapping("/add")
+    public ResponseEntity<Hotel> addHotel(@RequestBody Hotel hotel) {
+        Hotel savedHotel = hotelService.addHotel(hotel);
+        return new ResponseEntity<>(savedHotel, HttpStatus.CREATED);
+    }
+
+    @GetMapping("/all")
+    public ResponseEntity<List<Hotel>> getAllHotels() {
+        List<Hotel> hotels = hotelService.getAllHotels();
+        return new ResponseEntity<>(hotels, HttpStatus.OK);
+    }
+
+    @GetMapping("/get/{id}")
+    public ResponseEntity<?> getHotelById(@PathVariable int id) {
+        Hotel hotel = hotelService.getHotelById(id);
+        if (hotel != null) {
+            return new ResponseEntity<>(hotel, HttpStatus.OK);
+        } else {
+            return new ResponseEntity<>("Hotel with ID " + id + " not found.", HttpStatus.NOT_FOUND);
+        }
+    }
+
+    @PutMapping("/update")
+    public ResponseEntity<?> updateHotel(@RequestBody Hotel hotel) {
+        Hotel existing = hotelService.getHotelById(hotel.getId());
+        if (existing != null) {
+            Hotel updatedHotel = hotelService.updateHotel(hotel);
+            return new ResponseEntity<>(updatedHotel, HttpStatus.OK);
+        } else {
+            return new ResponseEntity<>("Cannot update. Hotel with ID " + hotel.getId() + " not found.", HttpStatus.NOT_FOUND);
+        }
+    }
+
+    @DeleteMapping("/delete/{id}")
+    public ResponseEntity<String> deleteHotel(@PathVariable int id) {
+        Hotel existing = hotelService.getHotelById(id);
+        if (existing != null) {
+            hotelService.deleteHotelById(id);
+            return new ResponseEntity<>("Hotel with ID " + id + " deleted successfully.", HttpStatus.OK);
+        } else {
+            return new ResponseEntity<>("Cannot delete. Hotel with ID " + id + " not found.", HttpStatus.NOT_FOUND);
+        }
+    }
+}
